@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import styles from "../Stylesheets/Bottom.module.css";
+import styles from "../Stylesheets/Bottomc.module.css"
 
 const Carousel = () => {
   const settings = {

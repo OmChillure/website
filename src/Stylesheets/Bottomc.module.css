@@ -14,9 +14,15 @@
     border-radius: 10px;
 }
 
+<<<<<<< HEAD
 .carouselContainer {
     height: 98%;
     width: 90%;
+=======
+.carouselContainer { 
+    height: 98%;
+    width: 90%; 
+>>>>>>> d7e51909b3d289813979e5d0faa1c08181c7e964
     display: flex;
     justify-content: center;
     align-items: center;
