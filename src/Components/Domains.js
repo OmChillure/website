@@ -58,14 +58,14 @@ const Final = () => {
                         <div className={Styles.imgContainer}>
                             <img src={asset4} alt="" />
                         </div>
-                        <div className={Styles.card}> <h1>Web 3.0</h1>
+                        <div className={Styles.card}> <h1>Blockchain</h1>
                             <p>
                                 Web3 is a notion for a new version of the World Wide Web that integrates principles like decentralisation, blockchain technology, and token-based economy. Web3 development is a burgeoning new technology, and we have enthusiasts who have already begun working on blockchain, dapps, bitcoin, and so on. Join us in getting ready for the future!
                             </p>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> 
 
         </section>
     );
