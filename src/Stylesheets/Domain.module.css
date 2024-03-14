@@ -1,0 +1,136 @@
+.head {
+    height: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headText {
+    height: 100%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 89%;
+    color: var(--secondarytext);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#domains {
+    height: 250vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#domains .content   {
+    height: 93%;
+    width: 85%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2%;
+    overflow: hidden;
+}
+
+.content > div {
+    height: 30%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.leftAligned > .container {
+    flex-direction: row-reverse;
+
+}
+
+.container {
+    height: 80%;
+    width: 97%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer > img {
+    height: 90%;
+    aspect-ratio: 1;
+    filter: drop-shadow(4px 7px 40px rgba(3, 225, 255, 0.25));
+    transition: all 0.3s;
+}
+
+.imgContainer > img:hover {
+    filter: drop-shadow(4px 7px 40px rgba(3, 226, 255, 0.693));
+}
+
+.card {
+    height: 80%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-direction: column;
+    background: var(--cardcolor);
+    padding: 25px;
+    transition: all 0.3s;
+}
+
+.leftAligned > .container > .card {
+    border-left: 7px solid var(--bordercolor);
+    border-radius: 3rem;
+}
+
+.rightAligned > .container > .card {
+    border-right: 7px solid var(--bordercolor);
+    border-radius: 3rem;
+}
+
+.leftAligned > .container > .card:hover {
+    border-right: 7px solid var(--bordercolor);
+
+}
+
+.rightAligned > .container > .card:hover {
+    border-left: 7px solid var(--bordercolor);
+
+}
+
+.card > h1 {
+    color: var(--secondarytext);
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: start;
+    border-bottom: 1px solid var(--bordercolor);
+    padding: 4px;
+}
+
+.card > p {
+    color: var(--tertiarytext);
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-align: justify;
+    overflow: scroll;
+}
