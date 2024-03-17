@@ -33,7 +33,12 @@ function Footer() {
           </div>
         </div>
         <div className={Style.Copyright}>
-          © Copyright 2022 - TheCodeBreakers
+          <h4>© Copyright 2022 - TheCodeBreakers</h4>
+          <ul>
+            <li>Terms</li>
+            <li>Privacy</li>
+            <li>Cookies</li>
+          </ul>
         </div>
       </div>
 
