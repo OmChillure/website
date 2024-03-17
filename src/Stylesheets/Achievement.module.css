@@ -10,7 +10,7 @@
     justify-content: space-evenly;
     align-items:center;
     flex-direction: column;
-    background-color:#061b224a;
+    background-color: black;
 }
 .AchievementsHead{
     height: 10vh;
@@ -18,11 +18,12 @@
     display:flex;
     justify-content: center;
     align-items:center;
-    font-size: 4vh; /* Adjust as needed */
+    font-size: 4vh; /* Responsive font size */
     font-weight: 600;
     letter-spacing: 1px;
     color: white;
 }
+
 .AchievementsCards{
    height: 210vh;
    width: 100%;
@@ -31,6 +32,7 @@
    justify-content: center;
    align-items:center;
    flex-direction: column;
+   margin-bottom: 1.5rem;
 }
 
 .AchievementsCard{
@@ -39,12 +41,14 @@
     display:flex;
     justify-content: center;
     align-items:center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(240, 248, 255, 0.089);
     transition: all .2s;
 }
+
 .AchievementsCard:hover{
     transform: scaleX(1.1);
 }
+
 .leftOfAchievementCard{
    width: 40%;
    height: 100%;
@@ -106,15 +110,6 @@ p{
     font-size: calc(0.7em + 0.7vw); /* Responsive font size */
 }
 
-
-
-
-/* Responsive */
-/* Your existing CSS */
-/* ... */
-
-/* Media queries for responsiveness */
-
 /* Small devices (landscape phones, less than 576px) */
 @media (max-width: 575.98px) { 
     .AchievementsContainer{
@@ -128,6 +123,9 @@ p{
     .leftOfAchievementCard, .rightOfAchievementCard{
         width: 100%;
     }
+    .AchievementsCards{
+        row-gap: 20px;
+    }
 }
 
 /* Medium devices (tablets, less than 768px) */
@@ -140,6 +138,9 @@ p{
     .leftOfAchievementCard, .rightOfAchievementCard{
         width: 100%;
     }
+    .AchievementsCards{
+        row-gap: 20px;
+    }
 }
 
 /* Large devices (desktops, less than 992px) */
@@ -148,6 +149,9 @@ p{
         height: 50vh;
         width: 70%;
     }
+    .AchievementsCards{
+        row-gap: 20px;
+    }
 }
 
 /* Extra large devices (large desktops, less than 1200px) */
@@ -155,5 +159,8 @@ p{
     .AchievementsCard{
         height: 40vh;
         width: 60%;
+    }
+    .AchievementsCards{
+        row-gap: 20px;
     }
 }

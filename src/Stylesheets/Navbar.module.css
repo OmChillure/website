@@ -97,3 +97,36 @@ a.active {
     font-weight: 500;
 
 }
+
+@media screen and (max-width: 1000px) {
+    .headContent {
+        position: absolute;
+        width: 100vw;
+        height: 63px;
+        left: -6px;
+        top: 0px;
+        border-radius: 0%;
+    }
+    
+    .logoCont{
+        width: 54%;
+    }
+
+    .logo > img{
+        position: absolute;
+        width: 64px;
+        height: 44px;
+        left: 20px;
+        top: 10px;
+    }
+    
+    .img_text{
+      margin-left: 5rem;
+      font-size: 1.1rem;
+    }
+
+    .list{
+        display: none;
+    }
+    
+  }
