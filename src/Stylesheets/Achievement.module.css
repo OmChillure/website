@@ -18,7 +18,7 @@
     display:flex;
     justify-content: center;
     align-items:center;
-    font-size: 4vh;
+    font-size: 4vh; /* Adjust as needed */
     font-weight: 600;
     letter-spacing: 1px;
     color: white;
@@ -55,7 +55,6 @@
 .leftOfAchievementCard>img{
    height: 100%;
    width: 100%;
-
 }
 .rightOfAchievementCard{
     width: 60%;
@@ -83,6 +82,7 @@ h1{
     display:flex;
     justify-content: center;
     align-items:center;
+    font-size: calc(1em + 1vw); /* Responsive font size */
 }
 h4{
     font-weight: 300;
@@ -90,6 +90,7 @@ h4{
     display:flex;
     justify-content: center;
     align-items:center;
+    font-size: calc(0.8em + 0.8vw); /* Responsive font size */
 }
 h2{
     font-weight: 500;
@@ -97,8 +98,62 @@ h2{
     display:flex;
     justify-content: center;
     align-items:center;
+    font-size: calc(0.9em + 0.9vw); /* Responsive font size */
 }
 p{
     color: rgb(97, 97, 97);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: calc(0.7em + 0.7vw); /* Responsive font size */
+}
+
+
+
+
+/* Responsive */
+/* Your existing CSS */
+/* ... */
+
+/* Media queries for responsiveness */
+
+/* Small devices (landscape phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .AchievementsContainer{
+        flex-direction: column;
+    }
+    .AchievementsCard{
+        flex-direction: column;
+        height: 80vh;
+        width: 90%;
+    }
+    .leftOfAchievementCard, .rightOfAchievementCard{
+        width: 100%;
+    }
+}
+
+/* Medium devices (tablets, less than 768px) */
+@media (max-width: 767.98px) { 
+    .AchievementsCard{
+        flex-direction: column;
+        height: 60vh;
+        width: 80%;
+    }
+    .leftOfAchievementCard, .rightOfAchievementCard{
+        width: 100%;
+    }
+}
+
+/* Large devices (desktops, less than 992px) */
+@media (max-width: 991.98px) { 
+    .AchievementsCard{
+        height: 50vh;
+        width: 70%;
+    }
+}
+
+/* Extra large devices (large desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .AchievementsCard{
+        height: 40vh;
+        width: 60%;
+    }
 }

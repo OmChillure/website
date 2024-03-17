@@ -1,6 +1,5 @@
 import React from "react";
 import Style from "../Stylesheets/Achievement.module.css";
-import logo from "../Assets/tcblogo.jpg";
 let AchievementsList = [
   {
     aname: "Tushar Pamnani",
