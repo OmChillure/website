@@ -1,6 +1,6 @@
 import React from "react";
 import Style from "../Stylesheets/Achievement.module.css";
-
+import logo from "../Assets/tcblogo.jpg";
 let AchievementsList = [
   {
     aname: "Tushar Pamnani",
@@ -48,12 +48,12 @@ let AchievementsCard = AchievementsList.map((obj) => {
   return (
     <div className={Style.AchievementsCard}>
       <div className={Style.leftOfAchievementCard}>
-        <img src={obj.img} alt={"Image of " + obj.aname}></img>
+        <img src="hh" alt={"Image of " + obj.aname}></img>
       </div>
       <div className={Style.rightOfAchievementCard}>
         <h1>{obj.aname}</h1>
-        <h3>{obj.branch}</h3>
-        <div className={Style.titleAndDescription}>
+        <h4>{obj.branch}</h4>
+        <div className = {Style.details}>
           <h2>{obj.title}</h2>
           <p>{obj.description}</p>
         </div>

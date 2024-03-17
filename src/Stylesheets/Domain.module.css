@@ -74,6 +74,7 @@
     aspect-ratio: 1;
     filter: drop-shadow(4px 7px 40px rgba(3, 225, 255, 0.25));
     transition: all 0.3s;
+ 
 } 
 
 .imgContainer > img:hover {

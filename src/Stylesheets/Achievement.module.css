@@ -24,75 +24,81 @@
     color: white;
 }
 .AchievementsCards{
-    height: 200vh;
-    width: 100%;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    flex-wrap: wrap;
-    overflow-y: auto;
-    row-gap:30px ;
+   height: 210vh;
+   width: 100%;
+   row-gap: 10px;
+   display:flex;
+   justify-content: center;
+   align-items:center;
+   flex-direction: column;
 }
 
 .AchievementsCard{
-    height: 20%;
+    height: 40vh;
     width: 80%;
-    border-radius: 8px;
-    background-color: rgb(0, 0, 0);
-    color: white;
     display:flex;
     justify-content: center;
     align-items:center;
-    transition : all .2s;
+    background-color: rgb(0, 0, 0);
+    transition: all .2s;
 }
-/* .AchievementsCard:hover{
+.AchievementsCard:hover{
     transform: scaleX(1.1);
-} */
+}
 .leftOfAchievementCard{
-    height: 100%;
-    width: 35%;
-    display:flex;
+   width: 40%;
+   height: 100%;
+   display:flex;
     justify-content: center;
     align-items:center;
 }
 .leftOfAchievementCard>img{
-    height: 80%;
-    width: 80%;
-    background-color: #ffffff31;
+   height: 100%;
+   width: 100%;
 
 }
 .rightOfAchievementCard{
+    width: 60%;
     height: 100%;
-    width: 65%;
+    display:flex;
+     justify-content: center;
+     align-items:center;
+     flex-direction: column;
+     row-gap: 5px;
+}
+.details{
+    height: 35%;
+    width: 80%;
+    background-color: rgba(240, 248, 255, 0.089);
     display:flex;
     justify-content: center;
     align-items:center;
     flex-direction: column;
-    row-gap: 8px;
+    margin-top: 5px;
+    row-gap: 4px;
 }
 h1{
     font-weight: 400;
-}
-h3{
-    font-weight: 300;
-    color: lightgray;
-}
-h2{
-    font-weight: 500;
-}
-.titleAndDescription{
-    width: 80%;
-    padding: 10px;
-    background-color:#141a1be0;
+    color: white;
     display:flex;
     justify-content: center;
     align-items:center;
-    flex-direction: column;
-    row-gap: 3px;
 }
-
-.titleAndDescription>p{
-    width: 85%;
-    text-align: center;
-    color: rgb(167, 167, 167);
+h4{
+    font-weight: 300;
+    color: lightgray;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+h2{
+    font-weight: 500;
+    color: rgb(224, 224, 224);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+p{
+    color: rgb(97, 97, 97);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
